@@ -63,6 +63,6 @@ Android Activity의 상태 변화에 따라 호출되는 주요 콜백(Callback)
 ---
 
 ## 7. `onRestart()` 
-* **호출 시점:** **`onStop()`**이 호출된 이후에 다시 기존 Activity로 돌아오는 경우에 호출되는 메소드.
+* **호출 시점:** `onStop()`이 호출된 이후에 다시 기존 Activity로 돌아오는 경우에 호출되는 메소드.
 * **특징:**
     * `onRestart()`가 호출된 이후 이어서 **`onStart()`가 호출**됨.
